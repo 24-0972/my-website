@@ -1,0 +1,77 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: white;
+  padding: 20px;
+}
+
+h1 {
+  color: black;
+  margin-top: 30px;
+}
+
+/* Table basics */
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+th, td {
+  border: 2px solid black;
+  text-align: center;
+  padding: 8px;
+}
+
+/* Table 1 header colors */
+.p1 { background-color: rgb(255, 51, 51); color: white; }
+.p2 { background-color: rgb(255, 153, 0); color: blue; }
+.p3 { background-color: rgb(255, 255, 0); color: blueviolet; }
+.p4 { background-color: rgb(102, 255, 102); color: brown; }
+.p5 { background-color: rgb(204, 153, 255); color: burlywood; }
+
+/* Table 1 row colors */
+.r1c1 { background-color: aqua; }
+.r1c2 { background-color: red; color: white; }
+.r1c3 { background-color: yellowgreen; color: tomato; }
+.r1c4 { background-color: pink; color: orange; }
+.r1c5 { background-color: violet; color: black; }
+
+.r2c1 { background-color: plum; color: blueviolet;}
+.r2c2 { background-color: lightgray; color:brown; }
+.r2c3 { background-color: khaki; color: azure; }
+.r2c4 { background-color: rgb(255, 153, 0); color:aquamarine ;}
+.r2c5 { background-color: rgb(153, 255, 204); color: antiquewhite;}
+
+.r3c1 { background-color: lightgreen; color: palevioletred;}
+.r3c2 { background-color: hotpink; color: greenyellow; }
+.r3c3 { background-color: chartreuse; color: lavender;}
+.r3c4 { background-color: yellow; color: indigo; }
+.r3c5 { background-color: cyan; color: green; }
+
+.r4c1 { background-color: lightyellow; color: blueviolet;}
+.r4c2 { background-color: plum;color: aqua; }
+.r4c3 { background-color: rgb(0, 255, 128);color: palevioletred; }
+.r4c4 { background-color: orange;color: brown; }
+.r4c5 { background-color: lightskyblue;color: black; }
+
+/* Table 2 header colors */
+.h1 { background-color: rgb(255, 0, 102); color: red; }
+.h2 { background-color: rgb(153, 102, 255); color: goldenrod; }
+.h3 { background-color: rgb(0, 153, 0); color: white; }
+.h4 { background-color: rgb(255, 255, 0); color: black; }
+
+/* Table 2 row colors */
+.s1 { background-color: lightcoral; color: bisque; }
+.s2 { background-color: lightgreen; color: black;}
+.s3 { background-color: cyan;color: brown; }
+.s4 { background-color: pink;color: blue; }
+
+.t1 { background-color: rgb(255, 153, 0); color: beige;}
+.t2 { background-color: khaki; color: black;}
+.t3 { background-color: rgb(255, 102, 102);color: blueviolet; }
+.t4 { background-color: rgb(204, 255, 153);color: lawngreen; }
+
+.u1 { background-color: hotpink;color: azure; }
+.u2 { background-color: lightblue;color: orangered; }
+.u3 { background-color: rgb(0, 255, 128); color: brown;}
+.u4 { background-color: rgb(204, 153, 255); color: goldenrod;}
